@@ -70,7 +70,42 @@ sections:
       - &ref_6
         title: gMail
         description: home google mail
+        icon: favicon
         url: https://mail.google.com
         id: 0_387_gmail
+      - &ref_7
+        title: Yahoo mail
+        description: gmnielsen@yahoo.com
+        url: https://mail.yahoo.com/
+        id: 1_387_yahoomail
+      - &ref_8
+        title: Hotmail
+        description: cocoamartin@hotmail.com
+        url: https://mail.live.com/
+        id: 2_387_hotmail
+      - &ref_9
+        title: docphoto.net mail
+        description: dreamhost
+        url: http://webmail.docphoto.net/src/login.php
+        id: 3_387_docphotonetmail
+      - &ref_10
+        title: docphoto.info mail
+        url: http://webmail.docphoto.info/src/login.php
+        id: 4_387_docphotoinfomail
     filteredItems:
       - *ref_6
+      - *ref_7
+      - *ref_8
+      - *ref_9
+      - *ref_10
+    icon: favicon
+  - name: Files
+    icon: file
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
+    filteredItems: []
